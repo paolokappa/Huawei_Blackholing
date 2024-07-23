@@ -1,4 +1,4 @@
-## Huawei Blackholing Script
+## Huawei BGP Transits Blackhole Manager
 
 ### Overview
 
