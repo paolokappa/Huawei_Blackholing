@@ -133,12 +133,12 @@ Before using the script, some initial setup on the router is required:
 
 - **Add an IP Address to the Blackhole Configuration**:
   ```shell
-  python Huawei_Blackholing.py add 185.54.83.155
+  python Huawei_Blackholing.py add 111.111.111.155
   ```
 
 - **Remove an IP Address from the Blackhole Configuration**:
   ```shell
-  python Huawei_Blackholing.py remove 185.54.83.155
+  python Huawei_Blackholing.py remove 111.111.111.155
   ```
 
 - **Remove All Blackhole IP Prefixes and Routes**:
