@@ -2,7 +2,8 @@
 
 ### Overview
 
-This Python script is designed to manage blackholing on a Huawei NetEngine router. It allows you to add, remove, and list IP prefixes and routes for blackholing purposes. The script uses SSH to connect to the router and execute the necessary commands. Additionally, it sends email notifications about the operations performed.
+This Python script is designed to manage blackholing on a Huawei NetEngine router. It allows you to add, remove, and list IP prefixes and routes for blackholing purposes. 
+The script communicates with IP transits via BGP communities to blackhole specified IP addresses by signaling these IPs to the Internet carriers' blackholing communities.
 
 ### Prerequisites
 
