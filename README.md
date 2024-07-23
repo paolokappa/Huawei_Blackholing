@@ -95,9 +95,9 @@ Before using the script, some initial setup on the router is required:
        key = open("Huawei_Blackholing.key", "rb").read()
        f = Fernet(key)
        credentials = {
-           "router_ip": "192.168.220.7",
-           "username": "Huawei-Blackholing",
-           "password": "Stabio555+"
+           "router_ip": "192.168.1.1",
+           "username": "HuaweiBlackhole",
+           "password": "MyPassword123"
        }
        encrypted_credentials = f.encrypt(json.dumps(credentials).encode())
        with open("Huawei_Blackholing.enc", "wb") as enc_file:
