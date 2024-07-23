@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 import json
 
-# Genera una chiave e la salva in un file
+# Genera una key e la salva in un file
 def generate_key():
     key = Fernet.generate_key()
     with open("Huawei_Blackholing.key", "wb") as key_file:
