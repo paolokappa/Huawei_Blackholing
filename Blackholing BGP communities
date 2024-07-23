@@ -1,18 +1,31 @@
 ### BGP Blackholing Communities for Major Global Carriers
 
-Here is a table of BGP blackholing communities for some of the major global carriers, including Colt, Sunrise, and Swisscom:
+Here is a table with the blackholing communities for some of the major global carriers:
 
-|--------------------------------------------------------------------|
-| **Carrier**            | **AS Number** | **Blackholing Community** |
+| Carrier                | AS Number | Blackholing Community |
 |------------------------|---------------|---------------------------|
-| **Colt**               | AS8220        | 8220:63999                |
-| **Sunrise**            | AS6730        | 6730:9999                 |
-| **Swisscom**           | AS3303        | 3303:666                  |
-| **Arelion ( Telia)**   | AS1299        | 1299:9999                 |
-| **Cogent**             | AS174         | 174:666                   |
-| **Lumen (Level3)**     | AS3356        | 3356:666                  |
-| **NTT**                | AS2914        | 2914:666                  |
-| **GTT**                | AS3257        | 3257:666                  |
-| **Deutsche Telekom**   | AS3320        | 3320:666                  |
-| **Vodafone**           | AS1273        | 1273:666                  |
-|--------------------------------------------------------------------|
+| Colt                   | AS8220        | 8220:63999                |
+| Sunrise                | AS6730        | 6730:9999                 |
+| Swisscom               | AS3303        | 3303:666                  |
+| Arelion ( Telia)       | AS1299        | 1299:xxx9 (per peer)      |
+| AT&T                   | AS7018        | 1299:2589                 |
+| Lumen (Level3)         | AS3356        | 1299:2569                 |
+| China Telecom          | AS4134        | 1299:2889                 |
+| China Unicom           | AS4837        | 1299:2879                 |
+| Cogent                 | AS174         | 1299:2739                 |
+| Comcast                | AS7922        | 1299:5669                 |
+| Deutsche Telekom       | AS3320        | 1299:2649                 |
+| Orange                 | AS5511        | 1299:2549                 |
+| GTT                    | AS3257        | 1299:2699                 |
+| Liberty Global (UPC)   | AS6830        | 1299:2709                 |
+| NTT                    | AS2914        | 1299:2529                 |
+| PCCW                   | AS3491        | 1299:7949                 |
+| TATA                   | AS6453        | 1299:2639                 |
+| Telecom Italia         | AS6762        | 1299:2749                 |
+| Telxius (Telefonica)   | AS12956       | 1299:2599                 |
+| Verizon                | AS701         | 1299:2579                 |
+| Vodafone               | AS1273        | 1299:2849                 |
+| Zayo (Abovenet)        | AS6461        | 1299:2539                 |
+|------------------------|---------------|---------------------------|
+
+Note: For some carriers, `xxx9` denotes the specific blackholing community where `xxx` varies depending on the number of prepends or the specific configuration.
