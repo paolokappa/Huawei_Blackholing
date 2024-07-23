@@ -2,16 +2,17 @@
 
 Here is a table of BGP blackholing communities for some of the major global carriers, including Colt, Sunrise, and Swisscom:
 
+|--------------------------------------------------------------------|
 | **Carrier**            | **AS Number** | **Blackholing Community** |
 |------------------------|---------------|---------------------------|
 | **Colt**               | AS8220        | 8220:63999                |
 | **Sunrise**            | AS6730        | 6730:9999                 |
 | **Swisscom**           | AS3303        | 3303:666                  |
-| **Arelion (formerly Telia)** | AS1299  | 1299:9999                 |
+| **Arelion ( Telia)**   | AS1299        | 1299:9999                 |
 | **Cogent**             | AS174         | 174:666                   |
 | **Lumen (Level3)**     | AS3356        | 3356:666                  |
 | **NTT**                | AS2914        | 2914:666                  |
 | **GTT**                | AS3257        | 3257:666                  |
 | **Deutsche Telekom**   | AS3320        | 3320:666                  |
 | **Vodafone**           | AS1273        | 1273:666                  |
-
+|--------------------------------------------------------------------|
