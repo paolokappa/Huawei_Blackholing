@@ -228,7 +228,7 @@ def main():
             log += f"IP {new_ip} already exists as a route with tag 666\n"
             sys.exit(1)
 
-        # Find the highest index and increment by 10
+        # Find the highest index and increment + 10
         max_index = find_max_index(ipv4_prefixes, ipv6_prefixes)
         new_index = max_index + 10
 
