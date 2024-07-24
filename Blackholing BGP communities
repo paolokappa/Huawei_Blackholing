@@ -2,8 +2,9 @@
 
 Here is a table with the blackholing communities for some of the major global carriers:
 
-| Carrier                | AS Number | Blackholing Community |
+| Carrier                | AS Number     | Blackholing Community     |
 |------------------------|---------------|---------------------------|
+| Arelion                | AS1299        | 1299:666                  |
 | Colt                   | AS8220        | 8220:63999                |
 | Sunrise                | AS6730        | 6730:666                  |
 | Swisscom               | AS3303        | 3303:666                  |
@@ -12,10 +13,12 @@ Here is a table with the blackholing communities for some of the major global ca
 | Lumen (Level3)         | AS3356        | 3356:9999                 |
 | Cogent                 | AS174         | Sessions with BH Servers  |
 | Comcast                | AS7922        | 7922:666                  |
+| Hurricane Electric     | AS6939        | 6939:666                  |
 | Deutsche Telekom       | AS3320        | 65000:0                   |
 | GTT                    | AS3257        | 3257:2666                 |
 | Liberty Global (UPC)   | AS6830        | 1299:2709                 |
 | NTT                    | AS2914        | 2914:666                  |
+| TATA                   | AS6453        | 64999:0                   |
 | Telecom Italia         | AS6762        | 6762:666                  |
 | Vodafone               | AS1273        | 1273:666                  |
 | Zayo (Abovenet)        | AS6461        | 6461:5990                 |
