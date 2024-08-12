@@ -83,7 +83,7 @@ Before using the script, some initial setup on the router is required:
 
 1. **Generate Encrypted Credentials**:
    Use `Huawei_Blackholing_gencre.py` to create the encrypted credentials file:
-   ```python
+   ```python3
    from cryptography.fernet import Fernet
    import json
 
@@ -122,34 +122,34 @@ Before using the script, some initial setup on the router is required:
 3. **Run the Script**:
    Use the script with the appropriate options:
    ```shell
-   python Huawei_Blackholing.py [option] [IP address]
+   python3 Huawei_Blackholing.py [option] [IP address]
    ```
 
 ### Example Commands
 
 - **List Current Blackhole IP Prefixes and Routes**:
   ```shell
-  python Huawei_Blackholing.py list
+  python3 Huawei_Blackholing.py list
   ```
 
 - **Add an IP Address to the Blackhole Configuration**:
   ```shell
-  python Huawei_Blackholing.py add 111.111.111.155
+  python3 Huawei_Blackholing.py add 111.111.111.155
   ```
 
 - **Remove an IP Address from the Blackhole Configuration**:
   ```shell
-  python Huawei_Blackholing.py remove 111.111.111.155
+  python3 Huawei_Blackholing.py remove 111.111.111.155
   ```
 
 - **Remove All Blackhole IP Prefixes and Routes**:
   ```shell
-  python Huawei_Blackholing.py clean-all
+  python3 Huawei_Blackholing.py clean-all
   ```
 
 - **Show Help Message**:
   ```shell
-  python Huawei_Blackholing.py help
+  python3 Huawei_Blackholing.py help
   ```
 
 ### Conclusion
